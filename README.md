@@ -97,7 +97,7 @@ To ensure all the pods get created well, watch it :
 watch -n 0.1 kubectl --all-namespaces get pods
 ```
 
-### Setup the slave
+## Setup the slave
 
 Same as master :
 
@@ -114,7 +114,7 @@ echo '1' > /proc/sys/net/bridge/bridge-nf-call-iptables
 
 We can now run your `kubeadm join` command.
 
-### Deploy the UI
+## Deploy the UI
 
 Simply run :
 
