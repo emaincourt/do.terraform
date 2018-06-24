@@ -1,0 +1,4 @@
+resources/.terraform
+resources/terraform.tfstate
+resources/terraform.tfstate.backup
+.DS_STORE
